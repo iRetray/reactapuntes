@@ -1,0 +1,18 @@
+{ 
+    "inicio":{
+        "titulo":"Que es React?",
+       "explicacion":" Es una libreria de React creada por Facebook, es basada en componentes y declarativo. al ser una libreria se puede usar en una hoja de HTML con ciertos scripts ",
+       "declarativo":" DECLARATIVO: React te ayuda a crear interfaces de usuario interactivas de forma sencilla. Diseña vistas simples para cada estado en tu aplicación, y React se encargará de actualizar y renderizar de manera eficiente los componentes correctos cuando los datos cambien.",
+       "basadoComponentes":" BASADO EN COMPONENTES:Crea componentes encapsulados que manejen su propio estado, y conviértelos en interfaces de usuario complejas.Ya que la lógica de los componentes está escrita en JavaScript y no en plantillas, puedes pasar datos de forma sencilla a través de tu aplicación y mantener el estado fuera del DOM.",
+       "jsxTitulo":"Por que JSX?",
+       "explicacionjsx":"Debido a que es una mezcla entre XML y Javascript  la forma ideal de crear codigo en React es con un archivo .jsx aunque tambien puede funcionar con .js pero no es muy recomendable ya que puede ocasionar algunos errores.",
+       "explicacionjsx2":"Como mencionamos que React es una libreria y puede ser usada en una pagina HTML, para comprender mejor esto vea el siguiente ejemplo: ",
+       "ejemplojsx":"la siguiente coigo es una pagina HTML con 3 scripts abajo de 'Carga React' el primero se encargga de importar la libreria de React, la segunda es el ReactDOM que es el que se encarga de react en el navegador web y el tercero es de babel, Babel nos ayuda a hacer la traduccion de codigo moderno a uno que entienda el navegador",
+       "ejemplojsx2":"posteriormente en el body y encontramos un snippet '<div id='root'></div>' aqui es donde se va a insertar lo que tenga la etiqueta divroot y se renderizara en el DOM que sera el h1Tag ",
+       "ejemplojsx3":"posteriormente se encuentra un script que esta llamando a la libreria de babel, en este script se le esta diciendo a babel:' construye una constante que tenga el titulo de Hola Mundo, busca en el DOM la etiqueta root y guargala en la constante divRoot y posteriormente mediante babel renderiza la la constante h1Tag en donde encontraste la etiqueta root 'divRoot' '  "
+    }
+
+    
+
+}
+     
