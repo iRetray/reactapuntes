@@ -3,13 +3,12 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Redirect
-   
+    Redirect   
   } from "react-router-dom";
 
 
-import { Homepage } from '../Paginas/Homepage';
-import { Inicio } from '../Paginas/Inicio/Inicio';
+import { Homepage } from '../pages/Homepage';
+import { Inicio } from '../pages/Inicio/Inicio';
 import { NavBar } from './NavBar';
 
 export const AppRouter = () => {
